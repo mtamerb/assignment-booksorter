@@ -7,6 +7,7 @@ import lombok.Data;
 public class Book implements Comparable<Book> {
 
     private String nameOfTheBook;
+    
     private int numberOfPage;
 
     private String nameOfTheAuthor;
