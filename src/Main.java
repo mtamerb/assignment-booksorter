@@ -2,7 +2,7 @@ import com.tamerb.ComparatorSecond;
 import com.tamerb.Book;
 
 
-import java.util.Iterator;
+
 import java.util.TreeSet;
 
 public class Main {
@@ -10,10 +10,10 @@ public class Main {
     public static void main(String[] args) {
 
         // 1.sorts the book by name from A to Z.
-        TreeSet<Book> bookName = new TreeSet<Book>();
+        TreeSet<Book> bookName = new TreeSet<>();
 
         bookName.add(new Book("I Robot\t", 248, "Isaac Asimov",
-                " 1951"));
+                " 1950"));
 
         bookName.add(new Book("Faundation", 304, "Isaac Asimov",
                 " 1942"));
@@ -35,10 +35,10 @@ public class Main {
 
 
         // 2.sorts the book by pages from 1 to N.
-        TreeSet<ComparatorSecond> bookPages = new TreeSet<ComparatorSecond>();
+        TreeSet<ComparatorSecond> bookPages = new TreeSet<>();
 
         bookPages.add(new ComparatorSecond("I Robot\t", 248, "Isaac Asimov",
-                "1951"));
+                "1950"));
 
         bookPages.add(new ComparatorSecond("Faundation", 304, "Isaac Asimov",
                 "1952"));

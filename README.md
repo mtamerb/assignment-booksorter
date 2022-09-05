@@ -1,36 +1,33 @@
 # Assignment - Book Sorter
 ## Book Sorter
 
+1. Design a class called Book. 
+2. Inherit from this class Comparable interface and override the "compareTo" method.
+3. Inside this method, write the code that sorts the book by name from A to Z. 
+4. Create 5 objects of this class and store the objects in a Set type structure. 
+5. Then use a Set type data structure a second time and have it sort the books by page count.
 
-Design a class called Book. Inherit from this class Comparable interface and override the "compareTo" method. Inside this method, write the code that sorts the book by name from A to Z. Create 5 objects of this class and store the objects in a Set type structure. Then use a Set type data structure a second time and have it sort the books by page count.
+- The Book class consists of the name of the book, the number of pages, the name of the author, and the date of publication.
 
-
-
-The Book class consists of the name of the book, the number of pages, the name of the author, and the date of publication.
-
-![](image/markdown.png)
->Örnek Proje Resmi
-
+![](resources/ex_out.png)
+>Thruput
 
 ## Installation
 
-Öncelikle projeyi klonlayın. 
+First, clone the project.
 
 ```bash
 git clone https://github.com/mtamerb/assignment-booksorter.git
 ```
 
 
-
 ## Usage
 
-Projeyi klonladıktan sonra Intellij Idea programında açınız.
-
-
+After cloning the project, run in Intellij Idea, Eclipse Idea etc. programs.
 
 ## Contributing
 
-Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açın.
+Pull requests are accepted. For major changes, please open a thread to discuss what you want to change first.
 
 
 
